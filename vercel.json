@@ -20,12 +20,12 @@
         "dest": "server.js"
       },
       {
-        "src": "/",
-        "dest": "build/index.html"
-      },
-      {
         "src": "/addproducts",
         "dest": "build/$1"
+      },
+      {
+        "src": "/",
+        "dest": "build/index.html"
       },
       {
         "src": "/(.+)",
