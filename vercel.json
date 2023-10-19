@@ -1,19 +1,16 @@
 {
     "builds": [
-      {
-        "src": "server.js",
-        "use": "@now/node"
-      },
-      {
-        "src": "build/**",
-        "use": "@vercel/static"
-      }
-    ],
+            {
+                "src": "server.js",
+                "use": "@vercel/node"
+            },
+            {
+                "src": "build/**",
+                "use": "@vercel/static"
+            }
+        ],
+    
     "routes": [
-      {
-        "src": "/products",
-        "dest": "server.js"
-      },
       {
         "src": "/products/(.*)",
         "dest": "server.js"
