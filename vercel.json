@@ -24,6 +24,10 @@
         "dest": "build/index.html"
       },
       {
+        "src": "/addproducts",
+        "dest": "build/$1"
+      },
+      {
         "src": "/(.+)",
         "dest": "build/$1"
       }
