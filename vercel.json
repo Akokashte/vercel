@@ -21,7 +21,7 @@
       },
       {
         "src": "/addproducts",
-        "dest": "build/$1"
+        "dest": "build/index.html"
       },
       {
         "src": "/",
