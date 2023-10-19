@@ -12,6 +12,10 @@
     
     "routes": [
       {
+        "src": "/products/*",
+        "dest": "server.js"
+      },
+      {
         "src": "/products/(.*)",
         "dest": "server.js"
       },
