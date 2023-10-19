@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const jsonfile = JSON.parse(fs.readFileSync("Data.json", "utf-8"));
+const jsonfile = JSON.parse(fs.readFileSync(path.resolve(__dirname,"../Data.json"), "utf-8"));
 const users = jsonfile.users;
  
  exports.createUser = (req,res)=>{
